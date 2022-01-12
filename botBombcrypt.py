@@ -57,12 +57,12 @@ while True:
     boot.position =(entraHerois)
     time.sleep(2)
     boot.click(Button.left)
-    time.sleep(5)
+    time.sleep(15)
 
     boot.position =(descansar)
     time.sleep(2)
     boot.click(Button.left)
-    time.sleep(3600)
+    time.sleep(4500)
 
     boot.position =(Trabalhar)
     time.sleep(2)
@@ -74,14 +74,14 @@ while True:
     boot.click(Button.left)
     time.sleep(5)
 
-    for i in range(1,5):
+    for i in range(0,7):
 
         boot.position =(mapa)
         time.sleep(2)
         boot.click(Button.left)
-        time.sleep(420)
+        time.sleep(240)
 
         boot.position =(fecharMapa)
         time.sleep(2)
         boot.click(Button.left)
-        time.sleep(10)
+        time.sleep(5)
