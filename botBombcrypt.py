@@ -75,12 +75,12 @@ while True:
     boot.click(Button.left)
     time.sleep(5)
 
-    for i in range(0,8):
+    for i in range(0,9):
 
         boot.position =(mapa)
         time.sleep(2)
         boot.click(Button.left)
-        time.sleep(240)
+        time.sleep(200)
         print("mapa")
 
         boot.position =(fecharMapa)
@@ -88,7 +88,7 @@ while True:
         boot.click(Button.left)
         time.sleep(5)
 
-        if i == 6  :
+        if i == 7 or i == 8 :
             
             boot.position =(entraHerois)
             time.sleep(2)
