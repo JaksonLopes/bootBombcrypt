@@ -62,6 +62,7 @@ while True:
     boot.position =(descansar)
     time.sleep(2)
     boot.click(Button.left)
+    print("descanço")
     time.sleep(4500)
 
     boot.position =(Trabalhar)
@@ -74,14 +75,32 @@ while True:
     boot.click(Button.left)
     time.sleep(5)
 
-    for i in range(0,7):
+    for i in range(0,8):
 
         boot.position =(mapa)
         time.sleep(2)
         boot.click(Button.left)
         time.sleep(240)
+        print("mapa")
 
         boot.position =(fecharMapa)
         time.sleep(2)
         boot.click(Button.left)
         time.sleep(5)
+
+        if i == 6  :
+            
+            boot.position =(entraHerois)
+            time.sleep(2)
+            boot.click(Button.left)
+            time.sleep(5)
+
+            boot.position =(Trabalhar)
+            time.sleep(2)
+            boot.click(Button.left)
+            time.sleep(5)
+
+            boot.position =(fecharherois)
+            time.sleep(2)
+            boot.click(Button.left)
+            time.sleep(5)
