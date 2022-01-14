@@ -53,17 +53,30 @@ print("--------PODE DEIXA PQ AGORA É COMIGO ,BOM DESCANSO ------- ")
 print("===========================================================")
 
 while True:
-
+    
     boot.position =(entraHerois)
     time.sleep(2)
     boot.click(Button.left)
     time.sleep(15)
-
+    
     boot.position =(descansar)
     time.sleep(2)
     boot.click(Button.left)
     print("descanço")
-    time.sleep(4500)
+
+    for i in range(0,10):
+        time.sleep(5)
+
+        boot.position =(fecharherois)
+        time.sleep(2)
+        boot.click(Button.left)
+        time.sleep(5)
+
+        boot.position =(entraHerois)
+        time.sleep(2)
+        boot.click(Button.left)
+        time.sleep(10)
+
 
     boot.position =(Trabalhar)
     time.sleep(2)
@@ -88,7 +101,7 @@ while True:
         boot.click(Button.left)
         time.sleep(5)
 
-        if i == 7 or i == 8 :
+        if i == 6  :
             
             boot.position =(entraHerois)
             time.sleep(2)
