@@ -65,7 +65,6 @@ while True:
     print("descanço")
 
     for i in range(0,11):
-
         time.sleep(450)
 
         boot.position =(fecharherois)
