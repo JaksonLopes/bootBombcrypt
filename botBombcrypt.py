@@ -42,6 +42,13 @@ time.sleep(10)
 fecharMapa = boot.position
 print("PRONTO")
 
+print("entraHerois",entraHerois)
+print("descansar",descansar)
+print("Trabalhar",Trabalhar)
+print("fecharherois",fecharherois)
+print("mapa",mapa)
+print("fecharMapa",fecharMapa)
+
 print("===========================================================")
 print("--------POSIÇÃO DOS BOTÕES RECUPERADOS COM SUCESSO ------- ")
 print("-----------DEIXA A TELA DO JOGO NA PAGINA INICIAL---------- ")
@@ -101,7 +108,7 @@ while True:
         boot.click(Button.left)
         time.sleep(5)
 
-        if i == 8  :
+        if i == 8:
             
             boot.position =(entraHerois)
             time.sleep(2)
