@@ -124,3 +124,12 @@ while True:
             time.sleep(2)
             boot.click(Button.left)
             time.sleep(5)
+
+
+
+entraHerois (1103, 689)
+descansar (627, 284)
+Trabalhar (562, 282)
+fecharherois (717, 225)
+mapa (662, 438)
+fecharMapa (166, 142)
