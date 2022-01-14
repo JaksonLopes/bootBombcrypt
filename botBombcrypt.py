@@ -64,8 +64,9 @@ while True:
     boot.click(Button.left)
     print("descanço")
 
-    for i in range(0,10):
-        time.sleep(5)
+    for i in range(0,11):
+
+        time.sleep(450)
 
         boot.position =(fecharherois)
         time.sleep(2)
@@ -101,7 +102,7 @@ while True:
         boot.click(Button.left)
         time.sleep(5)
 
-        if i == 6  :
+        if i == 8  :
             
             boot.position =(entraHerois)
             time.sleep(2)
