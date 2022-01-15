@@ -100,7 +100,7 @@ while True:
     boot.click(Button.left)
     time.sleep(5)
 
-    for i in range(0,9):
+    for i in range(1,9):
 
         boot.position =(mapa)
         time.sleep(2)
