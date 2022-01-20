@@ -100,7 +100,7 @@ while True:
     boot.click(Button.left)
     time.sleep(5)
 
-    for i in range(0,10):
+    for i in range(0,9):
 
         boot.position =(mapa)
         time.sleep(2)
@@ -113,7 +113,7 @@ while True:
         boot.click(Button.left)
         time.sleep(5)
 
-        if i == 7 or i == 8:
+        if i == 7:
             
             boot.position =(entraHerois)
             time.sleep(2)
