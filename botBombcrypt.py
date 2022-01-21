@@ -113,7 +113,7 @@ while True:
         boot.click(Button.left)
         time.sleep(5)
 
-        if i == 7 or i == 9:
+        if i == 7 or i == 9 :
             
             boot.position =(entraHerois)
             time.sleep(2)
