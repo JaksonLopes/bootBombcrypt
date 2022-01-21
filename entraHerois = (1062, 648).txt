@@ -1,0 +1,6 @@
+entraHerois = (1062, 648)
+descansar = (633, 274)
+Trabalhar = (567, 277)
+fecharherois = (711, 224)
+mapa = (668, 420)
+fecharMapa = (213, 144)
