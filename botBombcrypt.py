@@ -49,6 +49,7 @@ print("fecharherois =",fecharherois)
 print("mapa =",mapa)
 print("fecharMapa =",fecharMapa)
 
+time.sleep(444444)
 """ 
 entraHerois = (1103, 689)
 descansar =(627, 284)
