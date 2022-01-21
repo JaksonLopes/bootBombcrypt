@@ -3,7 +3,7 @@ from pynput.mouse import Button, Controller
 
 boot = Controller()
 
-
+""" 
 print("===========================================================")
 print("----VAMOS INICIAR ,PREPARE-SE PARA RECUPERAR OS BOTÕES---- ")
 print("===========================================================")
@@ -50,13 +50,7 @@ print("mapa =",mapa)
 print("fecharMapa =",fecharMapa)
 
 time.sleep(444444)
-""" 
-entraHerois = (1103, 689)
-descansar =(627, 284)
-Trabalhar = (562, 282)
-fecharherois = (717, 225)
-mapa = (662, 438)
-fecharMapa = (166, 142)
+ """
 
 
 
@@ -72,12 +66,12 @@ print("-----------DEIXA A TELA DO JOGO NA PAGINA INICIAL---------- ")
 print("===========================================================")
 time.sleep(10)
 
-entraHerois = (1103, 689)
-descansar =(627, 284)
-Trabalhar = (562, 282)
-fecharherois = (717, 225)
-mapa = (662, 438)
-fecharMapa = (166, 142)
+entraHerois = (1062, 648)
+descansar = (633, 274)
+Trabalhar = (567, 277)
+fecharherois = (711, 224)
+mapa = (668, 420)
+fecharMapa = (213, 144)
 
 
 while True:
@@ -144,7 +138,7 @@ while True:
             boot.position =(fecharherois)
             time.sleep(2)
             boot.click(Button.left)
-            time.sleep(5) """
+            time.sleep(5)
 
 
 
